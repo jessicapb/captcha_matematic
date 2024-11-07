@@ -1,0 +1,90 @@
+/* General */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.dades{
+    border: 0.063rem solid gray; /* 1px */
+    border-radius: 0.313rem; /* 5px */
+    padding: 0.625rem; /* 10px  */
+}
+
+::placeholder{
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 0.938rem; /* 15px */
+    color: black;
+}
+
+/* Títol */
+.títol{
+    font-size: 1.688rem; /* 27px */
+    margin-bottom: 0.938rem; /* 15px */
+    font-family: "Hubot Sans", sans-serif;
+}
+
+/* Omplir */
+.omplir{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.938rem; /* 15px */
+}
+
+.omplir__text{
+    font-family: "Rubik", sans-serif;
+    font-size: 1.063rem; /* 17px */
+    padding-bottom: 0.313rem; /* 5px */
+    color: #2980b9 ;
+}
+
+/* Resoldre */
+.resoldre{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 0.938rem; /* 15px */
+}
+
+.resoldre__text{
+    font-family: "Geist Mono", monospace;
+    margin-right: 0.625rem; /* 10px */
+    color: black;
+    font-size: 1rem; /* 16px */
+}
+
+.resoldre__text--preg{
+    font-family: "Geist Mono", monospace;
+    margin-right: 0.625rem; /* 10px */
+    color: black;
+    font-size: 1rem; /* 16px */
+    font-weight: bold;
+}
+
+/* Resultat */
+.bt_enviar{
+    background-color: #21618c;
+    border-radius: 0.313rem; /* 5px */
+    border: 0.063rem solid #21618c; /* 1px */
+    height: 15%;
+    width: 18%;
+    /* Text */
+    font-family: "Geist Mono", monospace;
+    color: white;
+    font-size: 15px; /* 15px */
+}
+
+.mostrar__text{
+    font-family: "PT Sans", sans-serif;
+    color: black;
+    font-size: 1.063rem; /* 17px */
+    padding-top: 0.625rem; /* 10px */
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Captcha Matemàtic</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Hubot+Sans:ital,wght@0,200..900;1,200..900&family=Nunito+Sans:ital,opsz@0,6..12;1,6..12&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div>
+        <!-- Títol -->
+        <h1 class="títol">Exemple de captcha</h1>
+
+        <!-- Omplir -->
+        <div class="omplir">
+            <label class="omplir__text" for="">Nom</label>
+            <input class="dades" type="text" placeholder="escriu el nom">
+        </div>
+
+        <!-- Omplir -->
+        <div class="omplir">
+            <label class="omplir__text" for="">Email</label>
+            <input class="dades" type="email"  placeholder="escriu el correu">
+        </div>
+
+        <!-- Resoldre -->
+        <div class="resoldre">
+            <p class="resoldre__text">Resolt l'operació: </p>
+            <p class="resoldre__text--preg" id="pregunta"></p>
+            <input class="dades" type="number" id="resposta" placeholder="escriu el resultat">
+        </div>
+        
+        <!-- Resultat -->
+        <button class="bt_enviar" id="enviar">Enviar</button>
+        <div class="mostrar__text" id="mostrar"></div>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>
